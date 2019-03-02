@@ -13,7 +13,10 @@ packages:
 extra-deps:
 - pandoc-citeproc-0.16.1
 - skylighting-0.7.7
-- skylighting-core-0.7.7
+- git: https://github.com/harfangk/skylighting.git
+  commit: 47412251dd4709b3527c2b89f4b33e08a8ade3e0
+  subdirs:
+    - skylighting-core
 - ipynb-0.1
 - texmath-0.11.2
 ghc-options:
